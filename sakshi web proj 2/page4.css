@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Lobster|Yanone+Kaffeesatz');
+*{
+    margin: 0px;
+    font-family: Bree serif,serif;
+}
+body{
+    background-image: linear-gradient(to right,green,greenyellow);
+}
+#back{
+     width:100%;
+    background-image: url(bckgrd3.jpg);
+    font-size: 150%;
+    padding-left: 35%;
+    text-decoration: underline;
+}
+p{ 
+    
+    padding-left: 10px;
+    font-size: 20px;
+    
+  
+}
+.para{ 
+    word-spacing: 1px;
+   
+    margin-left: 10px;
+    line-height: 1.7;
+}
+#pic1{
+     width: 700px;
+    height: 300px;
+    float: right;
+    margin-right: 5px;
+    border: solid brown;
+}
+#pic1:hover{
+	transform:translateY(-5px);
+    box-shadow:0px 5px 10px rgba(0,0,0,1);
+}
+#reaction{
+    width: 380px;
+    height: 40px;
+    background-color: darkolivegreen;
+    font-weight: 100;
+    color: white;
+    font-size: 24px;
+    margin-left: 30px;
+    border-radius: 10px;
+	padding:5px 10px;
+}
+#reaction h4{
+   padding: 5px;
+    text-decoration: none;
+}
+#reaction:hover{
+	transform:translateY(-5px);
+    box-shadow:0px 5px 10px rgba(0,0,0,1);
+}
+#pic2{
+     width: 700px;
+    height: 300px;
+    float: right;
+    margin-right: 5px;
+    border: solid brown;
+}
+#pic2:hover{
+	transform:translateY(-5px);
+    box-shadow:0px 5px 10px rgba(0,0,0,1);
+}
+h2{
+   
+    text-decoration: underline;
+    margin-left: 10px;
+    
+}
+h3{
+    
+    text-decoration: underline;
+    margin-left: 10px;
+}
+#back2{
+    background-color: sandybrown;
+    border: solid brown;
+    width: 100%px;
+    height: 450px;
+}
+video{
+    width: 450px;
+    height: 300px;
+    float: right;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+table{
+    float: left;
+    width: 720px;
+    height: 350;
+    margin-left: 40px;
+    border: solid brown;
+    font-size: 20px;
+}
+#back3{
+    background-color: sandybrown;
+    border: solid brown;
+    width: 1300px;
+    height: 245px;
+}
+#pic3{
+     width: 625px;
+    height: 400px;
+    float: right;
+    margin-right: 10px;
+    border: solid brown;
+}
+#pic3:hover{
+	transform:translateY(-5px);
+    box-shadow:0px 5px 10px rgba(0,0,0,1);
+}
+#back4{
+     background-color: sandybrown;
+    border: solid brown;
+    width: 650px;
+    height: 410px;
+}
+#back5{
+     background-color: sandybrown;
+    border: solid brown;
+    width: 1300px;
+    height: 180px;
+    margin-right: 20px;
+}
+footer{
+        
+    margin-left: 550px;
+}
+footer button{
+    width: 120px;
+    height: 50px;
+    border: none;
+    background-image: url(bckgrd3.jpg);
+    font-size: 17px;
+    color: greenyellow;
+    text-decoration: none;
+}
+
+footer button:hover{
+     transform: scale(1.1);
+     box-shadow:0px 5px 10px rgba(0,0,0,1);
+}

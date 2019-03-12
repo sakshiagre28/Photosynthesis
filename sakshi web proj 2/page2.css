@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Lobster|Yanone+Kaffeesatz');
+*{
+    font-family: Bree Serif,serif;
+    margin: 0px;
+}
+body{
+    background-image: linear-gradient(to right,green,greenyellow);
+}
+#back{
+     width:100%;
+     background-image: url(bckgrd3.jpg);
+    font-size: 150%;
+    padding-left: 35%;
+    text-decoration: underline;
+}
+
+p{ 
+    padding-left: 10px;
+    font-size: 20px;
+}
+#pic1{
+    width: 400px;
+    height: 300px;
+    float: right;
+    margin-right: 5px;
+    border: solid brown;
+}
+#pic1:hover{
+	transform:translateY(-5px);
+    box-shadow:0px 5px 10px rgba(0,0,0,1);
+}
+#pic2{
+    width: 500px;
+    height: 400px;
+    margin-left: 10px;
+    float: left;
+    margin-right: 5px;
+    border: solid brown;
+
+}
+#pic2:hover{
+	transform:translateY(-5px);
+    box-shadow:0px 5px 10px rgba(0,0,0,1);
+}
+.para{ 
+    word-spacing: 1px;
+    margin-left: 10px;
+    line-height: 1.7;
+}
+    
+#back2{
+    background-color: sandybrown;
+    display: block;
+    width: 600px;
+    height: 250px;
+    float: right;
+    border: solid brown;
+    margin-right: 100px;
+}
+#back2:hover{
+    transform:translateY(-5px);
+    box-shadow:0px 5px 10px rgba(0,0,0,1);
+}
+h3{
+    font-style: italic;
+    font-family: cursive;
+    color: saddlebrown;
+}
+#fact{
+    font-style: italic;
+    font-family: cursive;
+    
+}
+footer{
+        
+    margin-left: 550px;
+}
+footer button{
+    width: 120px;
+    height: 50px;
+    border: none;
+    background-image: url(bckgrd3.jpg);
+    font-size: 17px;
+    color: greenyellow;
+    text-decoration: none;
+}
+
+footer button:hover{
+     transform: scale(1.1);
+     box-shadow:0px 5px 10px rgba(0,0,0,1);
+}

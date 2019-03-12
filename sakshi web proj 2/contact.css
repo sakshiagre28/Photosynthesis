@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Lobster|Yanone+Kaffeesatz');
+*{
+    font-family: Bree Serif,serif;
+    margin: 0px;
+    
+}
+body{
+    background-image: linear-gradient(to right,green,greenyellow);
+}
+#back{
+     width:100%;
+    background-image: url(bckgrd3.jpg);
+    font-size: 150%;
+    padding-left: 35%;
+    text-decoration: underline;
+}
+
+p{ 
+    padding-left: 10px;
+    font-size: 25px;
+}
+#back2{
+    margin-left: 300px;
+    margin-top: 80px;
+    font-size: 30px;
+}
+
+#back2 form{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.button{
+    width: 120px;
+    height: 50px;
+    border: none;
+    background-image: url(bckgrd3.jpg);
+    font-size: 17px;
+    color: greenyellow;
+    text-decoration: none;
+}
+.button:hover{
+    transform: scale(1.1);
+    box-shadow:0px 5px 10px rgba(0,0,0,1);
+}
+a{
+    text-decoration: none;
+    color: lightyellow;
+}
+a:hover{
+    color: darkolivegreen;
+}

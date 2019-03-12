@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Lobster|Yanone+Kaffeesatz');
+*{
+    margin: 0px;
+    font-family: Bree serif,serif;
+}
+body{
+    background-image: linear-gradient(to right,green,greenyellow);
+}
+#back{
+     width:100%;
+    background-image: url(bckgrd3.jpg);
+    font-size: 150%;
+    padding-left: 35%;
+    text-decoration: underline;
+}
+p{ 
+    
+    padding-left: 10px;
+    font-size: 20px;
+}
+.para{ 
+    word-spacing: 1px;
+    line-height: 1.7;
+}
+#reaction{
+    width: 630px;
+    height: 40px;
+    background-color: darkolivegreen;
+    font-weight: 100;
+    color: white;
+    font-size: 24px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+#reaction h4{
+   padding: 5px;
+    text-decoration: none;
+}
+#reaction:hover{
+	transform:translateY(-5px);
+    box-shadow:0px 5px 10px rgba(0,0,0,1);
+}
+
+#pic1{
+    width: 430px;
+    height: 400px;
+    float: right;
+    margin-right: 15px;
+    border: solid brown;
+}
+#pic1:hover{
+	transform:translateY(-5px);
+    box-shadow:0px 5px 10px rgba(0,0,0,1);
+}
+#box1{
+    background-color: sandybrown;
+    border: solid brown;
+    width: 1300px;
+    height: 180px;
+}
+#box2{
+    background-color: sandybrown;
+    border: solid brown;
+    width: 700px;
+    height: 500px;
+}
+#box3{
+     background-color: sandybrown;
+    border: solid brown;
+    width: 1300px;
+    height: 220px;
+}
+h3{
+    padding: 10px;
+    text-decoration: underline;
+}
+#pic2{
+    width: 590px;
+    height: 510px;
+    float: right;
+    margin-left: 20px;
+    border: solid brown;
+}
+
+#pic2:hover{
+	transform:translateY(-5px);
+    box-shadow:0px 5px 10px rgba(0,0,0,1);
+}
+
+#pic2:active{
+	transform:translateY(-2px);
+    box-shadow:0px 10px 10px rgba(0,0,0,0.8);
+}
+#pic3{
+    width: 590px;
+    height: 510px;
+    float: right;
+    border: solid brown;
+    background-color: aliceblue;
+}
+
+#pic3:hover{
+	transform:translateY(-5px);
+    box-shadow:0px 5px 10px rgba(0,0,0,1);
+}
+footer{
+        
+    margin-left: 550px;
+}
+footer button{
+    width: 120px;
+    height: 50px;
+    border: none;
+    background-image: url(bckgrd3.jpg);
+    font-size: 17px;
+    color: greenyellow;
+    text-decoration: none;
+}
+footer button:hover{
+     transform: scale(1.1);
+     box-shadow:0px 5px 10px rgba(0,0,0,1);
+}

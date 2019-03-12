@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Lobster|Yanone+Kaffeesatz');
+*{
+    margin: 0px;
+    font-family: Bree serif,serif;
+}
+body{
+    background-image: linear-gradient(to right,green,greenyellow);
+}
+#back{
+     width:100%;
+    background-image: url(bckgrd3.jpg);
+    font-size: 150%;
+    padding-left: 35%;
+    text-decoration: underline;
+}
+p{ 
+    
+    padding-left: 10px;
+    font-size: 20px;
+}
+.para{ 
+    word-spacing: 1px;
+    line-height: 1.7;
+}
+#back2{
+     background-color: sandybrown;
+    border: solid brown;
+    width: 600px;
+    height: 350px;
+    margin-left: 20px;
+}
+#pic{
+    width: 600px;
+    height: 340px;
+    float: right;
+    border: solid brown;
+    margin-right: 20px;
+}
+#pic:hover{
+	transform:translateY(-5px);
+    box-shadow:0px 5px 10px rgba(0,0,0,1);
+}
+footer{
+        
+    margin-left: 550px;
+}
+footer button{
+    width: 120px;
+    height: 50px;
+    border: none;
+    background-image: url(bckgrd3.jpg);
+    font-size: 17px;
+    color: greenyellow;
+    text-decoration: none;
+}
+
+footer button:hover{
+     transform: scale(1.1);
+     box-shadow:0px 5px 10px rgba(0,0,0,1);
+}
